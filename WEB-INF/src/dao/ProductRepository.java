@@ -41,12 +41,12 @@ public class ProductRepository{
         RX6000.setUnitsInStock(8000);
         RX6000.setCondition("Old");
         
-        Product RX300 = new Product("P1340","RX300", 50000);
-        RX300.setDescription("RX300 시리즈");
-        RX300.setCategory("그래픽카드 RX");
-        RX300.setManufacturer("AMD");
-        RX300.setUnitsInStock(100);
-        RX300.setCondition("Old");
+        Product RX7000 = new Product("P1370","RX7000", 100000);
+        RX7000.setDescription("RX7000 시리즈");
+        RX7000.setCategory("그래픽카드 RX");
+        RX7000.setManufacturer("AMD");
+        RX7000.setUnitsInStock(8000);
+        RX7000.setCondition("Old");
         
         Product RX400 = new Product("P1340","RX400", 100000);
         RX400.setDescription("RX400 시리즈");
@@ -74,7 +74,7 @@ public class ProductRepository{
         listOfProducts.add(RTX30);
         listOfProducts.add(RTX40);
         listOfProducts.add(RX6000);
-        listOfProducts.add(RX300);
+        listOfProducts.add(RX7000);
         listOfProducts.add(RX400);
         listOfProducts.add(RX500);
         listOfProducts.add(RXVEGA);
