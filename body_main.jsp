@@ -29,7 +29,7 @@
                              <h5 class="card-title">
                                  그래픽 카드 이미지 샘플
                              </h5>
-                             <p class="card-text">
+                             <p class="card-text text-white">
                                  출처: 구글 검색
                              </p>
                     </div>
