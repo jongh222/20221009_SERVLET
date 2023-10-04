@@ -13,7 +13,7 @@
         </div>
     </div>
     <div>
-        <img src="image\logo.png" class="img-fluid" alt="main_image">
+        <a href="/index.jsp"><img src="/image/logo.png" class="img-fluid" alt="main_image"></a>
     </div>
     
     <div class="container">
