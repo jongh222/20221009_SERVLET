@@ -50,7 +50,7 @@
     <hr>
     </div>
     <div class="card bg-dark text-white">
-    <img src="image/gpu.jpg" class="card-img" alt="...">
+    <img src="/image/gpu.jpg" class="card-img" alt="...">
     <div class="card-img-overlay">
         <h5 class="card-title">
             그래픽 카드 이벤트
