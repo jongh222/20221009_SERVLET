@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <title>웹마켓</title>
         <script>
-            window.open("popup/popup1.jsp","popup","width=365, height=250, left=0, top=0")
+            window.open("../popup/popup1.jsp","popup","width=365, height=250, left=0, top=0")
         </script>
     </head>
     <body>
