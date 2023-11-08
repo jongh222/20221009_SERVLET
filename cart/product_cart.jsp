@@ -3,6 +3,7 @@
 <%@ page import="dto.Product"%>
 <%@ page import="java.util.Date"%>
 <%@ page import="dao.ProductRepository"%>
+<%@ page import="example.*" %>
 <html>
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -26,8 +27,10 @@
             <div class="row">
                 <table width="100%">
                     <tr>
+                        <% if (session.getAttribute("cartlist") != null){%>
                         <td align="left"><a href="product_cart_remove_all.jsp?cartId=<%=cartId%>" class="btn btn-danger">삭제하기</a></td>
-                        <td align="right"><a href="#" class="btn btn-success">주문하기</a></td>
+                        <td align="right"><a href="../order/order_info.jsp?cartId=<%= cartId%>" class="btn btn-success">주문하기</a></td>
+                        <%}%>
                     </tr>
                 </table>
             </div>
