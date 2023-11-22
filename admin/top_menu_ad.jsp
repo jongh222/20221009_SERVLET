@@ -23,7 +23,7 @@
             <a class="navbar-brand" href="">상품보기</a>
             <a class="navbar-brand" href="product_add.jsp">등록</a>
             <a class="navbar-brand" href="product_edit.jsp?edit=update">수정</a>
-            <a class="navbar-brand" href="product_edit.jsp?edit=delete.jsp">삭제</a>
+            <a class="navbar-brand" href="product_edit.jsp?edit=delete">삭제</a>
             <a class="navbar-brand" href="../index.jsp">일반모드</a>
             <a class="navbar-brand" href="/login/logout.jsp">로그아웃</a>
         </div>
