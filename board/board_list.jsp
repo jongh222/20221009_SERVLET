@@ -52,7 +52,7 @@ int total_page = ((Integer) request.getAttribute("total_page")).intValue();
                             <th>글쓴이</th>
                         </tr>
                         <%
-                        for(int j = 0; j<boardList.size(); j++){
+                        for (int j = 0; j < boardList.size(); j++) {
                             Board_dto notice = (Board_dto) boardList.get(j);
                         %>
                         <tr>
